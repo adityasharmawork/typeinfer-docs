@@ -89,7 +89,7 @@ async function processGeneration(opts: GenerationOptions) {
         } else if (opts.file) {
           data = await parseJsonFile(opts.file);
         } else {
-          throw new Error('JSON source selected but no input file was provided.');
+          throw new Error('JSON source selected but no input data / file was provided.');
         }
         break;
       case 'api':

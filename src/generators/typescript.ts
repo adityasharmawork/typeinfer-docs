@@ -13,6 +13,7 @@ export interface GenerateOptions {
  * @param options Generation options
  * @returns TypeScript interface as a string
  */
+
 export async function generateTypeScript(schema: SchemaType, options: GenerateOptions): Promise<string> {
   const interfaceName = options.interfaceName || 'GeneratedInterface';
   let output = `interface ${interfaceName} ${generateTypeScriptFromSchema(schema, options)}\n`;
@@ -35,6 +36,7 @@ export async function generateTypeScript(schema: SchemaType, options: GenerateOp
  * @param depth Current depth for indentation
  * @returns TypeScript type definition as a string
  */
+
 function generateTypeScriptFromSchema(schema: SchemaType, options: GenerateOptions, depth = 0): string {
   if (!schema) return 'any';
   
