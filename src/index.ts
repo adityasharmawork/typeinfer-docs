@@ -242,7 +242,7 @@ async function runInteractive() {
             name: 'inferOptionalChoice',
             message: 'Infer optional properties (fields not present in all objects/samples become optional)?',
             choices: ['Yes', 'No'],
-            default: 'No'
+            default: 'Yes'
         }
     ]);
     opts.inferOptional = inferOptionalChoice === 'Yes';
@@ -350,7 +350,7 @@ program
   .option('-j, --json-input <json>', 'Direct JSON input string (for CLI usage)')
   .option('-o, --output <format>', 'Output format (typescript, jsonschema)', 'typescript')
   .option('-i, --interfaceName <name>', 'Name for the generated interface/schema title', 'Generated')
-  .option('--inferOptional', 'Infer optional properties', false)
+  .option('--inferOptional', 'Infer optional properties', true)
   .option('--customFields <jsonstring>', 'Define additional custom fields as a JSON string (e.g., \'[{"name":"newField","type":"string"}]\')')
   .option('-p, --prettify', 'Prettify output', false)
   .option('--outFile <path>', 'Output file path (outputs to console if not specified)')
