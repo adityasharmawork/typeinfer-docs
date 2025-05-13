@@ -50,12 +50,12 @@ Provide data:
 -   **API**: enter the full endpoint URL.
 -   **CSV**: enter the path to a local CSV file.
 
--**Select output format**: TypeScript or JSON Schema.
--**Interface/schema name**: define your root type name (e.g. User or DataSchema).
--**Infer optional properties?** Yes/No.
--**Add custom fields interactively (if applicable).**
--**Prettify output.**
--**Save to file or print to the terminal.**
+- **Select output format**: TypeScript or JSON Schema.
+- **Interface/schema name**: define your root type name (e.g. User or DataSchema).
+- **Infer optional properties?** Yes/No.
+- **Add custom fields interactively (if applicable).**
+- **Prettify output.**
+- **Save to file or print to the terminal.**
 
 ---
 
