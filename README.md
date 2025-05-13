@@ -8,13 +8,13 @@ A zero-configuration CLI utility and library to automatically generate TypeScrip
 
 ## Features
 
-- **Multi-source support**: JSON files, REST API endpoints, and CSV files.  
+- **Multi-source support**: JSON files, API endpoints, and CSV files.  
 - **Output formats**: TypeScript interfaces or JSON Schema.  
 - **Optional property inference**: Mark fields optional automatically, with the ability to add custom optional fields interactively or via flags.  
 - **Automatic type detection**: Numbers, booleans, strings, arrays, and nested objects.  
 - **Union deduplication**: Removes duplicate types in union definitions (`string | string ➔ string`).  
-- **Prettified output**: Integrates [Prettier](https://prettier.io/) for clean, consistent code style.  
-- **Interactive CLI**: Step-by-step prompts via [Inquirer.js](https://github.com/SBoudrias/Inquirer.js).  
+- **Prettified output**: For clean, consistent code style.  
+- **Interactive CLI**: Step-by-step prompts via for easy usage.  
 - **Programmatic API**: Generate schemas or infer types within your own Node.js scripts.  
 - **Robust error handling**: Graceful CLI errors with clear, user-friendly messages.  
 
