@@ -1,6 +1,6 @@
 # TypeInfer
 
-[![npm version](https://img.shields.io/npm/v/typeinfer)](https://www.npmjs.com/package/typeinfer) [![License](https://img.shields.io/npm/l/typeinfer)](./LICENSE)
+[![npm version](https://img.shields.io/npm/v/typeinfer)](https://www.npmjs.com/package/typeinfer) 
 
 A zero-configuration CLI utility and library to automatically generate TypeScript interfaces or JSON Schemas from JSON files, API responses, or CSV data. TypeInfer accelerates TypeScript development by inferring types, optional properties, and custom fields interactively or via command-line arguments, with robust error handling.
 
